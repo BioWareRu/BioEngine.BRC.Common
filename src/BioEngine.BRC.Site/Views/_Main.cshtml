@@ -1,5 +1,4 @@
-﻿@using BioEngine.BRC.Site.Patreon
-@using BioEngine.Core.Seo
+﻿@using BioEngine.Core.Seo
 @using BioEngine.Extra.Ads.Site
 @using BioEngine.Extra.Twitter
 @model BioEngine.Core.Site.Model.PageViewModel
@@ -155,7 +154,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     @await Component.InvokeAsync(typeof(AdViewComponent))
 
                     <!--Card-->
-                    @await Component.InvokeAsync(typeof(PatreonWidgetViewComponent))
+                    @*@await Component.InvokeAsync(typeof(PatreonWidgetViewComponent))*@
                     <!--/.Card-->
 
                     @await Component.InvokeAsync(typeof(AdViewComponent))
